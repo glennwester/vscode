@@ -22,7 +22,7 @@ jobs:
 
     - name: npm install, build and test
       run: |
-        pwd
+        cd .. 
         yarn
         npm install
         npm run build --if-present
