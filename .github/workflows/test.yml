@@ -22,7 +22,6 @@ jobs:
 
     - name: npm install, build and test
       run: |
-        cd .. 
         pwd
         ls
         yarn
